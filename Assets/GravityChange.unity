@@ -424,6 +424,13 @@ MonoBehaviour:
   m_vActualGravityDirection: {x: 0, y: 0, z: 0}
   m_fButtonDelay: 0.2
   m_fCurrentElapsedTime: 0
+  m_fHorizontalSensitivity: 20
+  m_fVerticalSensitivity: 10
+  m_fMovementAccelerationFactor: 10
+  m_pParalysisGunRef: {fileID: 1944823933319538, guid: 179cd9e5c6684af44a2daa41315c908f,
+    type: 2}
+  m_pParalysisBulletRef: {fileID: 1587637738795168, guid: ba5f70cf8b7cd6b4e862edb90c67515b,
+    type: 2}
 --- !u!4 &616377902
 Transform:
   m_ObjectHideFlags: 0
