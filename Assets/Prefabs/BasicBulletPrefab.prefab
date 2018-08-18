@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4583025703767944}
+  - component: {fileID: 114563070276430870}
   - component: {fileID: 33418997028987986}
   - component: {fileID: 135035095027325380}
   - component: {fileID: 23476627116787348}
@@ -97,6 +98,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114563070276430870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587637738795168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afcc782519ccff499c1e64f332d7610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_fInitialImpulse: 1
+  m_fMaxSpeed: 20
+  m_fMinSpeed: 1
+  m_fTimeToLive: 10
 --- !u!135 &135035095027325380
 SphereCollider:
   m_ObjectHideFlags: 1
